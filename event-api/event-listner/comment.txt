@@ -1,0 +1,7 @@
+// method
+
+// 1. addEventListener()
+// element.addEventListener("click", handler);
+// 2. removeEventListener()
+// element.removeEventListener("click", handler);
+// 3. dispatchEvent()

@@ -1,0 +1,72 @@
+## Event Object Methods (Full list)
+
+- event.preventDefault() - default action বন্ধ করে
+- stopPropagation() -event bubbling/capturing flow বন্ধ করে
+- stopImmediatePropagation() - একই element এর অন্য listeners-ও বন্ধ করে
+
+
+
+-----------
+
+
+## Common Event Properties (সব event এ থাকে)
+type → event name (click, input, keydown)
+target → আসল element যেখানে event হয়েছে
+currentTarget → যেই element এ listener আছে
+bubbles → event bubble করবে কিনা
+cancelable → preventDefault করা যাবে কিনা
+defaultPrevented → default action বন্ধ হয়েছে কিনা
+eventPhase → capture / target / bubble phase
+timeStamp → event কখন হয়েছে (ms)
+
+
+---------------
+
+##  MouseEvent properties
+clientX, clientY
+pageX, pageY
+screenX, screenY
+offsetX, offsetY
+movementX, movementY
+button
+buttons
+relatedTarget
+altKey, ctrlKey, shiftKey, metaKey
+
+## . KeyboardEvent properties
+key
+code
+altKey
+ctrlKey
+shiftKey
+metaKey
+repeat
+isComposing
+
+## InputEvent / FormEvent properties
+data
+inputType
+isComposing
+target.value (important, but DOM property)
+
+## Window / UIEvent properties
+view
+detail
+
+## TouchEvent properties
+touches
+targetTouches
+changedTouches
+
+## DragEvent properties
+dataTransfer
+effectAllowed
+dropEffect
+
+##  ClipboardEvent properties
+clipboardData
+
+##  Network / Misc events
+online / offline → no special props
+error → message, filename, lineno
+

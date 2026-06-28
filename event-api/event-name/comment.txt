@@ -1,0 +1,51 @@
+ Event Types এর main categories
+## 1. Mouse Events
+click
+dblclick
+mousedown
+mouseup
+mousemove
+mouseover
+mouseout
+contextmenu
+
+## 2. Keyboard Events
+keydown
+keyup
+keypress (deprecated)
+
+## 3. Input / Form Events
+input
+change
+submit
+focus
+blur
+
+## 4. Window / Document Events
+load
+DOMContentLoaded
+resize
+scroll
+beforeunload
+
+## 5. Touch Events (mobile)
+touchstart
+touchmove
+touchend
+
+## 6. Drag & Drop Events
+drag
+dragstart
+dragend
+drop
+dragover
+
+## 7. Clipboard Events
+copy
+cut
+paste
+
+## 8. Network / Misc Events
+online
+offline
+error

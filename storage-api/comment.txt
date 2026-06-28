@@ -1,0 +1,17 @@
+## storage-api
+
+Local Storage
+
+localStorage.setItem()
+localStorage.getItem()
+localStorage.removeItem()
+localStorage.clear()
+localStorage.key()
+
+Session Storage
+
+sessionStorage.setItem()
+sessionStorage.getItem()
+sessionStorage.removeItem()
+sessionStorage.clear()
+sessionStorage.key()

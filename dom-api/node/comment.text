@@ -1,0 +1,46 @@
+
+## Node কি? (DOM এ) 
+
+Node হলো DOM (Document Object Model) tree এর যেকোনো একটি single অংশ বা unit। HTML page ব্রাউজারে লোড হলে সেটা একটা tree structure এ convert হয়, সেই tree এর প্রতিটা ছোট অংশই হলো Node
+
+---
+
+## Node কী কী হতে পারে?
+
+- Element Node → <div>, <p>, <button>
+- Text Node → "Hello mustafizur"
+- Comment Node → <!-- comment -->
+- Document Node → পুরো document নিজেই
+
+---
+
+## node importent property
+node.parentNode
+node.childNodes
+node.firstChild
+node.lastChild
+node.nextSibling
+node.previousSibling
+
+node.nodeType
+node.nodeName
+node.nodeValue
+
+node.ownerDocument
+node.baseURI
+
+---
+
+## node importent methods
+node.appendChild()
+node.removeChild()
+node.replaceChild()
+node.insertBefore()
+
+node.cloneNode()
+node.contains()
+
+node.normalize()
+node.isEqualNode()
+
+
