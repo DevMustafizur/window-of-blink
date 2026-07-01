@@ -4,7 +4,6 @@ The window object is the global object in browser JavaScript.
 It represents the current browser tab and provides access to global variables, functions, and browser APIs.
 
 ## Why does the Blink engine create the window object?
-##### Blink engine creates the window object because:
 The Blink engine creates the window object to provide JavaScript with a global browser environment.
 The window object is the browser's global object. It exposes browser features and Web APIs—such as the DOM, timers, navigation, storage, and networking—to JavaScript, allowing JavaScript code to interact with web pages and browser functionality.
 
